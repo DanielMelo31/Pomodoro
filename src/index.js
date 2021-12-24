@@ -34,6 +34,8 @@ const pause = () => {
 };
 
 const reset = () => {
+	min = 25
+	sec = 60
 	htmlMinutes.innerHTML = 25;
 	htmlSeconds.innerHTML = '00';
 	pause();

@@ -4,28 +4,46 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width= , initial-scale=1.0" />
-		<link rel="stylesheet" href="./styles.css">
+		<link rel="stylesheet" href="./styles.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Mukta&family=Roboto+Mono:wght@200&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Mukta&family=Oooh+Baby&family=Roboto+Mono:wght@200&display=swap"
+			rel="stylesheet"
+		/>
+
 		<title>Doropomo</title>
 	</head>
 	<body>
 		<header>
 			<h1>Doropomo</h1>
+			<img src="./media/tomato.PNG" alt="tomato logo" />
 		</header>
 		<main>
-			<div>
+			<div class="main-container">
 				<div class="content-timer">
-                    <span id="minutes">25</span>
-                    <span>:</span>
-                    <span id="seconds">00</span></div>
+					<span id="minutes">25</span>
+					<span> : </span>
+					<span id="seconds">00</span>
+				</div>
 				<button class="buttonStart" id="buttonStart">Start</button>
-                <button class="buttonStop" id="buttonStop">Stop</button>
-                <button class="buttonReset" id="buttonReset">Reset</button>
+				<button class="buttonStop" id="buttonStop">Stop</button>
+				<button class="buttonReset" id="buttonReset">Reset</button>
 
-                <div>
-                    <p id="break"></p>
-                </div>
+				<div>
+					<p id="break"></p>
+				</div>
 			</div>
 		</main>
+		<footer>
+			<p class="credits">By: melito</p>
+		</footer>
 		<script src="./index.js"></script>
 	</body>
 </html>

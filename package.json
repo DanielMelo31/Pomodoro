@@ -1,0 +1,8 @@
+{
+  "name": "Pomodoro",
+  "version": "1.0.0",
+  "description": "Pomodoro personal project",
+  "main": "index.js",
+  "author": "Daniel Melo",
+  "license": "MIT"
+}
